@@ -1,17 +1,24 @@
-# flutter_app
+# Flutter Fundamentals App
 
-A new Flutter project.
+A mobile application built to demonstrate and master the core architectural and layout concepts of the **Flutter** framework and **Dart** programming language.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Key Features
 
-A few resources to get you started if this is your first Flutter project:
+* **Modular Architecture:** The codebase is fully decoupled, splitting the user interface into distinct `views/pages` (smart components) and reusable `widgets` (presentational components).
+* **State Management & Reactivity:** Implemented local state tracking using `StatefulWidget` and high-performance, granular UI updates via `ValueNotifier` and `ValueListenableBuilder` to minimize widget rebuilds.
+* **Responsive & Adaptive Layouts:** Designed to scale across different screen constraints using `MediaQuery`, `LayoutBuilder`, and proportional sizing with `Flexible` and `Expanded`. Uses native `.adaptive` constructors to match iOS and Android visual guidelines.
+* **Data Persistence:** Integrated local key-value storage using the `shared_preferences` package to persist user configuration (such as Dark/Light theme toggle) across app restarts.
+* **Asynchronous Networking:** Consumes external REST APIs using the `http` package. Implements declarative asynchronous rendering using `FutureBuilder` to smoothly cycle through Loading, Error, and Data states.
+* **UI Polish:** Features smooth component-sharing transitions via native `Hero` animations and handles complex vector graphics through the `Lottie` animation framework.
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠️ Tech Stack & Dependencies
+
+* **Core:** Flutter 3.x / Dart 3.x
+* **Networking:** `http`
+* **Storage:** `shared_preferences`
+* **Graphics:** `lottie`
+* **Build Tools:** `flutter_launcher_icons` (for native app icon generation)
