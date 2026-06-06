@@ -4,7 +4,7 @@ A mobile application built to demonstrate and master the core architectural and 
 
 ---
 
-## 🚀 Key Features
+## Key Features
 
 * **Modular Architecture:** The codebase is fully decoupled, splitting the user interface into distinct `views/pages` (smart components) and reusable `widgets` (presentational components).
 * **State Management & Reactivity:** Implemented local state tracking using `StatefulWidget` and high-performance, granular UI updates via `ValueNotifier` and `ValueListenableBuilder` to minimize widget rebuilds.
@@ -15,7 +15,7 @@ A mobile application built to demonstrate and master the core architectural and 
 
 ---
 
-## 🛠️ Tech Stack & Dependencies
+## Tech Stack & Dependencies
 
 * **Core:** Flutter 3.x / Dart 3.x
 * **Networking:** `http`
